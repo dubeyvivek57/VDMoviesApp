@@ -1,17 +1,19 @@
-package com.example.vdmoviesapp.data.remote
+package com.example.vdmoviesapp.data.remote.model
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class Crew(
+data class Cast(
     val id: Long,
+    @SerializedName("cast_id")
+    val castId: Long,
+    var character: String?,
     @SerializedName("credit_id")
     val creditId: String,
-    var name: String?,
+    val name: String?,
     @SerializedName("profile_path")
     var profilePath: String?,
-    val job: String?,
-    val department: String
+    val order: Int
 ) : Parcelable

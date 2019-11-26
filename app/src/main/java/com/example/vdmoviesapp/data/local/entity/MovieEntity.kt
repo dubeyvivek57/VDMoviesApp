@@ -1,15 +1,13 @@
 package com.example.vdmoviesapp.data.local.entity
 
-import android.os.Parcel
 import android.os.Parcelable
 import androidx.room.Entity
 import androidx.room.TypeConverters
 import com.example.vdmoviesapp.data.local.converter.*
-import com.example.vdmoviesapp.data.remote.Cast
-import com.example.vdmoviesapp.data.remote.Crew
-import com.example.vdmoviesapp.data.remote.Genre
-import com.example.vdmoviesapp.data.remote.Video
-import com.example.vdmoviesapp.utils.AppConstants
+import com.example.vdmoviesapp.data.remote.model.Cast
+import com.example.vdmoviesapp.data.remote.model.Crew
+import com.example.vdmoviesapp.data.remote.model.Genre
+import com.example.vdmoviesapp.data.remote.model.Video
 import com.google.gson.annotations.SerializedName
 import kotlinx.android.parcel.Parcelize
 import java.util.ArrayList

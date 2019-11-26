@@ -1,4 +1,4 @@
-package com.example.vdmoviesapp.data.remote
+package com.example.vdmoviesapp.data.remote.model
 
 import android.os.Parcelable
 import androidx.room.TypeConverters

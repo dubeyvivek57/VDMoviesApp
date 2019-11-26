@@ -1,7 +1,7 @@
 package com.example.vdmoviesapp.data.local.converter
 
 import androidx.room.TypeConverter
-import com.example.vdmoviesapp.data.remote.CreditResponse
+import com.example.vdmoviesapp.data.remote.model.CreditResponse
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
